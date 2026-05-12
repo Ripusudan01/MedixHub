@@ -1,0 +1,51 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+
+# Flask instance folder
+instance/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# SQLite database
+*.db
+*.sqlite3
+
+# Logs
+*.log
+
+# Celery beat schedule
+celerybeat-schedule
+
+# Pytest cache
+.pytest_cache/
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Node modules (if frontend uses Node/Vue/React)
+node_modules/
+
+# Frontend build folders
+frontend/dist/
+frontend/build/
+
+# Temporary files
+*.swp
+*.swo

@@ -1,0 +1,36 @@
+:root {
+  --primary: #4084F6;
+  --primary-gradient: linear-gradient(to left, #4084F6, #5268F8);
+  --background: #F9FBFC;
+  --text-dark: #0A0E31;
+}
+
+/* Global reset */
+* {
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+  color: var(--text-dark);
+}
+
+/* Headings & Brand */
+h1, h2, h3, h4, h5, h6,
+.navbar-brand {
+  font-family: 'Sora', sans-serif;
+}
+
+/* Links */
+a {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #5268F8;
+}
