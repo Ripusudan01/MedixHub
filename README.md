@@ -30,7 +30,6 @@ A full-stack **Hospital Management System** for managing patients, doctors, appo
 * **Caching:** Redis
 * **Background Jobs:** Celery
 * **Email:** MailHog
-* **Testing:** Pytest
 
 ---
 
@@ -94,9 +93,3 @@ cd frontend
 npm install
 npm run dev
 ```
-
----
-
-## License
-
-Developed for educational purposes as part of the **IIT Madras BS in Data Science and Applications** program.
